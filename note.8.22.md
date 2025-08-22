@@ -1,28 +1,28 @@
-﻿# powershell杩愯娉ㄦ剰浜嬮」
+# powershell运行注意事项
 
-### <1>鍖哄垎璁块棶瀵硅薄鐨勫睘鎬у拰浣跨敤鍙橀噺鐨勫懡浠?
+### <1>区分访问对象的属性和使用变量的命令
 
-鍦╬owershell 涓悊瑙$__.} 杩欎釜鍗犱綅绗﹁〃绀虹閬撲紶杩囨潵鐨勬瘡涓€涓璞★紝鐒跺悗鐢ㄧ偣鍙锋潵鍙嶅簲浠栫殑灞炴€?
+在powershell 中理解{$__.} 这个占位符表示管道传过来的每一个对象，然后用点号来反应他的属性
 
 ```
 Get-Service | Where-Object {$_.Status -eq 'Running'}
-Get-Service | Where Status -eq 'Running'鏌ユ壘姝ｅ湪杩愯鐨勬湇鍔?
-Get-Service | Where-Object {$_.Name -like "*Update*"}鏌ユ壘鍚嶅瓧閲屽甫鏇存柊鐨勬湇鍔?
+Get-Service | Where Status -eq 'Running'查找正在运行的服务
+Get-Service | Where-Object {$_.Name -like "*Update*"}查找名字里带更新的服务
 Get-Service | Where-Object {$_.Status -eq 'Running'
--and $_.StartType -eq 'Automatic'}鏌ユ壘姝ｅ湪杩愯骞朵笖鍚姩涓鸿嚜鍚姩鐨勬湇鍔?
-Get-Service | Select-Object Name, Status 鍙樉绀烘湇鍔＄殑鍚嶅瓧鍜岀姸鎬?
+-and $_.StartType -eq 'Automatic'}查找正在运行并且启动为自启动的服务
+Get-Service | Select-Object Name, Status 只显示服务的名字和状态
 ```
 
-### <2>鍩烘湰鍛戒护
+### <2>基本命令
 
 ``` ```
-Get-Content gc, cat 鑾峰彇鏂囦欢鍐呭
-Get-ChildItem ls, dir, gci 鍒楀嚭鏂囦欢鐩綍
-Get-Service gsv 鑾峰彇鏈嶅姟淇℃伅
-Get-Process ps, gps 鑾峰彇杩涚▼淇℃伅
-Set-Location cd, chdir 鍒囨崲宸ヤ綔鐩綍
-Copy-Item cp, copy 澶嶅埗鏂囦欢鎴栫洰褰?
-Remove-Item rm, del, rd 鍒犻櫎鏂囦欢鎴栫洰褰?
+Get-Content gc, cat 获取文件内容
+Get-ChildItem ls, dir, gci 列出文件目录
+Get-Service gsv 获取服务信息
+Get-Process ps, gps 获取进程信息
+Set-Location cd, chdir 切换工作目录
+Copy-Item cp, copy 复制文件或目录
+Remove-Item rm, del, rd 删除文件或目录
 ```
 
-<3>蹇€熺郴缁熷仴搴疯皟鏌?璁板綍鍚嶅瓧鍜孭ID
+<3>快速系统健康调查-记录名字和PID
