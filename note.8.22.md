@@ -18,13 +18,13 @@ cd D:\ls -Recurse | Where-Object { $_.Name -eq "8.18.md" }找到你的文件到�
 ### <2>基本命令
 
 ``` ```
-Get-Content gc, cat 获取文件内容
-Get-ChildItem ls, dir, gci 列出文件目录
-Get-Service gsv 获取服务信息
-Get-Process ps, gps 获取进程信息
-Set-Location cd, chdir 切换工作目录
-Copy-Item cp, copy 复制文件或目录
-Remove-Item rm, del, rd 删除文件或目录
+Get-Content gc, cat获取文件内容
+Get-ChildItem ls, dir, gci列出文件目录
+Get-Service gsv获取服务信息
+Get-Process ps, gps获取进程信息
+Set-Location cd, chdir切换工作目录
+Copy-Item cp, copy复制文件或目录
+Remove-Item rm, del, rd删除文件或目录
 ```
 
 ``` ```
