@@ -16,12 +16,13 @@ Get-Service | Select-Object Name, Status 只显示服务的名字和状态
 ### <2>基本命令
 
 ``` ```
-cd D:/ 切换目录
-ls 查看当前目录的文件夹
-mkdir创建文件夹
-
+Get-Content gc, cat 获取文件内容
+Get-ChildItem ls, dir, gci 列出文件目录
+Get-Service gsv 获取服务信息
+Get-Process ps, gps 获取进程信息
+Set-Location cd, chdir 切换工作目录
+Copy-Item cp, copy 复制文件或目录
+Remove-Item rm, del, rd 删除文件或目录
 ```
 
-
-
-### <3>快速系统健康调查-记录名字和PID
+<3>快速系统健康调查-记录名字和PID
