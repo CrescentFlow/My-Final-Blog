@@ -29,15 +29,25 @@ Remove-Item rm, del, rd删除文件或目录
 push操作
 ``` 
 
-# 再次添加所有变更（如果文件被删，这步也能记录删除操作）
+# 添加变更
 git add .
 # 提交备份，并留下记录
 git commit -m "备份：又写了一段关于XXX的内容"
-# 添加远程仓库地址（把你仓库的HTTPS地址换到这里）
+# 添加远程仓库地址
 git remote add origin https://github.com/你的用户名/你的仓库名.git
-# 将本地备份推送到远程（需要你登录账号）
+# 将本地备份推送到远程
 git push -u origin main
 
+# 2 再次添加所有变更
+git add .
+# 提交备份，并留下记录
+git commit -m "备份：又写了一段关于XXX的内容"
+# 将本地备份推送到远程
+git push 
+#推送
+
+#重命名分支
+git branch -M main
 # 还原到最后一次提交的状态
 git restore .
 # 强制还原所有文件
@@ -48,6 +58,16 @@ git status
 git log -p 8.19.md
 # 查看最近一次修改了哪些具体内容
 git show
+#监听文件
+gc "8.18.md" -Wait
+Get-Content -Path "8.18.md" -Wait
+
+
+#创建文件夹
+mkdir
+#创建文件
+New
+
 ```
 
 
