@@ -29,7 +29,7 @@
 - 🔄 PowerShell自动化
 - ⏳ Shell脚本编程
 
-### 成就系统
+### 🎪 成就系统
 - 🌟 Git推送大师（已解锁）
 - 🏆 PowerShell初学者（修炼中）
 - 🎯 技术分享者（进行中）
@@ -39,7 +39,7 @@
 
 ### 🔍 快速检索
 - [按日期查看](https://github.com/CrescentFlow/My-Final-Blog/tree/main?sort=committerdate)
-- [按标签筛选](#)  # 后期可以添加tags
+- [按标签筛选](#)  
 ### 💬 交流互动
 遇到类似问题？欢迎：
 - [提出建议](https://github.com/CrescentFlow/My-Final-Blog/issues)
