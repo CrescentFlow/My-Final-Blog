@@ -8,30 +8,30 @@
 
 ## 📚 技术笔记索引
 
-### Git 专题
+#### Git 专题
 - [Git推送问题解决方案](2025-08-23-shell-contacts.md)
 - [分支管理技巧](2025-08-21-git-tips.md)
 
-### PowerShell 专题  
+#### PowerShell 专题  
 - [PowerShell基础命令](2025-08-22-powershell-basic-contacts.md)
 
-### 学习路径
+#### 学习路径
 - [我的技术学习路线图](learning-path.md)
 
 
 
 ## 🕐成长仪表盘
 
-### ✨ 学习数据看板
+#### ✨ 学习数据看板
 - 📦**知识积累**: 24 KiB 技术笔记
 - 🆕**最近更新**: [[2025-08-23] Git推送解决方案](2025-08-23-shell-contacts.md)
 
-### 🎯 当前修炼重点
+#### 🎯 当前修炼重点
 - ✅ Git高级技巧
 - 🔄 PowerShell自动化
 - ⏳ Shell脚本编程
 
-### 🏆 成就系统
+#### 🏆 成就系统
 - ✅ Git推送大师（已解锁）
 - 🔄 PowerShell初学者（修炼中）
 - ⏳ 技术分享者（进行中）
