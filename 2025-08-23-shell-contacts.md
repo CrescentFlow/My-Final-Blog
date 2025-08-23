@@ -1,4 +1,4 @@
-## 基本命令复习
+# 基本命令复习
 
 ```
 #重命名文件夹
@@ -49,7 +49,7 @@ notepad file-path
 
  ```
 
- ## shell配置
+ # shell配置
 
  ```
  #执行关联命令
@@ -82,7 +82,7 @@ notepad file-path
 
 
 ```
-### 注意事项
+## 注意事项
 ```
  ##中文路径循环限制###
  C：\Users\china-name\.ssh\contents {  known_hosts 已知主机记录 known_hosts.old 旧的已知主机记录  config SSH 配置文件 }
@@ -200,3 +200,17 @@ ssh -T -i D: /projects/keys-file git@github.com
 
 
  ```
+
+
+ ### checkout 注意事项
+ ```
+ <1>使用避免vim的方式合并
+ git pull origin main --allow-unrelated-histories --no-edit
+ #或者先设置编辑器
+ git config --global core.editor "code --wait"
+ git pull origin main --allow-unrelated-histories
+ <2>预防Vim问题
+ git config --global core.editor "code --wait"//设置VS为默认编辑器
+ git config --global core.editor "false"//不进入编辑器
+ <3>分支历史冲突问题
+ git commit --no-edit
