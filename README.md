@@ -7,7 +7,7 @@
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=CrescentFlow.My-Final-Blog)
 
 ## 📚 技术笔记索引
----
+
 ### Git 专题
 - [Git推送问题解决方案](2025-08-23-shell-contacts.md)
 - [分支管理技巧](2025-08-21-git-tips.md)
@@ -20,7 +20,7 @@
 
 
 ## 🕐成长仪表盘
----
+
 ### ✨ 学习数据看板
 - 📦**知识积累**: 24 KiB 技术笔记
 - 🆕**最近更新**: [[2025-08-23] Git推送解决方案](2025-08-23-shell-contacts.md)
@@ -37,7 +37,7 @@
 
 
 ## 🤝成长游戏区
----
+
 ### 🔍 快速检索
 - [按日期查看](https://github.com/CrescentFlow/My-Final-Blog/tree/main?sort=committerdate)
 - [按标签筛选](#)  
