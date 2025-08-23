@@ -1,4 +1,4 @@
-### 基本命令复习
+## 基本命令复习
 
 ```
 #重命名文件夹
@@ -161,7 +161,7 @@ Get-ChildItem env: | Where-Object{$_.Name -like "*SSH*" -or $_.Name -like "*GIT*
 ssh-add -L
 git config --list --show-origin
 
-//The-sametime 使用全新的明确的SSH命令来推送
+The-sametime 使用全新的明确的SSH命令来推送
 cd D:\filepath
 Start-Process -Wait -NoNewWindow git  -c core.sshCommand="ssh -i C:Users\china-name\.ssh\keys-file" push -u origin main"
 
@@ -171,7 +171,32 @@ ssh-add C:\Users\chinaname\.ssh\keyfile
 ssh-add -l
 git push -u origin main
 
+#[8]确保hub上已经创建了仓库，确保仓库名一致，使用绝对路径推送  &&permission denied
+git remote remove origin
+git remote add origin git@github.com:NAME/file.git
+git -c core.sshCommand="ssh -i D: projects\keys-file" push -f -u origin main"
+&& $env : GIT_SSH_COMMAND = "ssh -i D: /projects/keys-file" push -f -u origin main
+&& $env : GIT_SSH_COMMAND = "ssh -i D: /projects/keys-file -o UserKnownHostsFile=/dev/null -o StrictHostChecking=no" #使用正斜杠避免路径问题，禁用已知主机检查，正确指定key路径
+&& 创建SSH配置文件{
+    Test-Path D: /projects/keys-file
+    mkdir -Force ~/.ssh/config
+    text:
+        Host github.com
+        HostName github.com
+        User git
+        IdentityFile D: /projects/keys-file
+        IdentitiesOnly yes
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+}
+#key权限
+icacls D: /projects/keys-file:r
+icacls D: /projects/keys-file:r "$env:USERNAME:(R)"
+&& icacls "D: /projects/keys-file" /inheritance:r /grant:r "$env:USERNAME:(F)"
+icacls D: /projects/keys-file
+#SSH连接测试
+ssh -T -i D: /projects/keys-file git@github.com
+#确保key添加到settings
 
 
- 
  ```
