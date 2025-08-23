@@ -18,22 +18,24 @@
 ### 学习路径
 - [我的技术学习路线图](learning-path.md)
 
-## 📊 学习数据看板
+## 成长仪表盘
 
+### 📊 学习数据看板
 - **知识积累**: 24 KiB 技术笔记
 - **最近更新**: [[2025-08-23] Git推送解决方案](2025-08-23-shell-contacts.md)
 
-## 🎯 当前修炼重点
+### 🎯 当前修炼重点
 - ✅ Git高级技巧
 - 🔄 PowerShell自动化
 - ⏳ Shell脚本编程
-
-## 🎮 成长游戏区
 
 ### 成就系统
 - 🌟 Git推送大师（已解锁）
 - 🏆 PowerShell初学者（修炼中）
 - 🎯 技术分享者（进行中）
+
+
+## 🎮 成长游戏区
 
 ### 🔍 快速检索
 - [按日期查看](https://github.com/CrescentFlow/My-Final-Blog/tree/main?sort=committerdate)
@@ -42,7 +44,6 @@
 遇到类似问题？欢迎：
 - [提出建议](https://github.com/CrescentFlow/My-Final-Blog/issues)
 - [分享你的经验](#)
-
 🌟 如果笔记对你有帮助，点个Star鼓励一下～
 ### 🌸 我的学习理念
 > "每天浇灌，静待花开"
