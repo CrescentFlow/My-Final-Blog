@@ -41,10 +41,10 @@
 
 ## 🤝成长游戏区
 
-### 🔍 快速检索
+#### 🔍 快速检索
 - [按日期查看](https://github.com/CrescentFlow/My-Final-Blog/tree/main?sort=committerdate)
 - [按标签筛选](#)  
-### 💬 交流互动
+#### 💬 交流互动
 遇到类似问题？欢迎：
 - [提出建议](https://github.com/CrescentFlow/My-Final-Blog/issues)
 - [分享你的经验](#)
