@@ -45,9 +45,11 @@
 - [按日期查看](https://github.com/CrescentFlow/My-Final-Blog/tree/main?sort=committerdate)
 - [按标签筛选](#)  
 #### 💬 交流互动
-<a href="https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&labels=bug&template=bug_report.md" target="_blank">🐛 报告Bug  </a>
-<a href="https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&labels=bug&template=feature_request.md" target="_blank">💡 提出建议  </a>
-<a href="https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&labels=bug&template=share_experience.md" target="_blank">🌟 分享经验 </a>
+<p>
+  <a href="https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&labels=bug&template=bug_report.md" target="_blank">🐛 报告Bug</a> | 
+  <a href="https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&labels=enhancement&template=feature_request.md" target="_blank">💡 提出建议</a> | 
+  <a href="https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&labels=documentation+discussion&template=share_experience.md" target="_blank">🌟 分享经验</a>
+</p>
 
 
 
