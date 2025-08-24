@@ -55,4 +55,9 @@
 - [💡 提出建议](https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&lables=bug&template=feature_request.md?)
 - [🌟 分享经验](https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&lables=bug&template=share_experience.md?)
 
+
+### 测试
+
+<a href="https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&labels=bug&template=bug_report.md" target="_blank">🐛 报告Bug（HTML版）</a>
+
 > "🐅🌹心有猛虎，细嗅蔷薇"
