@@ -1,3 +1,6 @@
+yaml
+
+
 ---
 title: "📝功能建议"
 lables: ["enhancement"]

@@ -1,3 +1,5 @@
+yaml
+
 ---
  title: "🐛问题报告"
  labels: ["bug"]
