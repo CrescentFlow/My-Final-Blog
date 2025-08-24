@@ -1,5 +1,5 @@
 ---
-name: "🐛 Bug 报告"
+name: "🐛Bug报告"
 description: "报告项目中存在的错误或问题"
 about: "请使用此模板报告项目中发现的错误"
 title: "【Bug】: "
@@ -26,5 +26,5 @@ assignees:
 - 操作系统：
 - 浏览器：
 - 版本：
-EOF
+
 
