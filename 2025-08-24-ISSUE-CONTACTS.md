@@ -103,6 +103,7 @@ assignees:
 
 ```
 <3>. 创建模板文件-push之后的延时问题检查方法
+```
     1. {//检查是否推送到远程仓库HEAD -> main, origin/main
     git status 
     git log
@@ -113,28 +114,32 @@ assignees:
     2. https://github.com/USERNAME/REPOSITITORY-NAME/blob/main/.github/ISSUE_TEMPLATE/FILE-NAME.md(是否push成功)
        https://github.com/USERNAME/REPOSITITORY-NAME/tree/main/.github/ISSUE_TEMPLATE/FILE-NAME.md(是否push成功)
    
-
+```
 <4>. 理解仓库结构
+```
      1. 包含main分支和其他分支，main下面包含Tree文件结构,tree包含文件内容{二进制大对象blob (这个路径指向一个文件) }和文件夹Tree；
      2. main分支合并过程 ；它包含了(稳定版);feature(新功能);hotfix(紧急修复);docs(文档更新);后三个分支用来合并新版本最后发布；
-
+```
 
 <5>. 路径问题
+```
     ../../往上走两级   /issues/站内绝对路径   完整绝对路径https://
     https://github.com/UERSNAME/REPOSRITORY/issues/new?assigenees=UERSNAME&&labels=bug&template=filename.md
-
+```
 
 <6>.标签系统
+```
     包含enhancement,documentation,discussion,bug
-
+```
 <7>. 缓存延迟问题
+```
     1. README链接后面添加随机参数?v=1、2、3
     2. ？raw=true 查看原始文件 
        #直接访问原始文件
        curl https://raw.gitbusercontent.com/NAME/REPOSITOTRYNAME/main/README.md
        #比较本地和远程差异
        git diff origin/main README.md
-
+```
 
 ### SSH认证
 
