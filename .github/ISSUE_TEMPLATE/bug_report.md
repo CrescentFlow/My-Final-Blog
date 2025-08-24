@@ -5,8 +5,8 @@ title: "【Bug】："
 labels: ["bug"]
 assignees:
   - CrescentFlow
----
 
+---
 ### 问题描述
 <!-- 清晰描述你遇到的错误 -->
 
@@ -25,3 +25,4 @@ assignees:
 - 操作系统：
 - 浏览器：
 - 版本：
+---
