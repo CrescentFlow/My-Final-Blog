@@ -46,7 +46,13 @@
 - [按标签筛选](#)  
 #### 💬 交流互动
 遇到类似问题？欢迎：
-- [提出建议](https://github.com/CrescentFlow/My-Final-Blog/issues)
-- [分享你的经验](#)
+- [提出建议] (../../issues/new?template=feature_request.md)
+- [分享经验] (../../issues/new?template=share_experience.md)
+
+
+## 测试
+- [🐛 报告Bug](https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&lables=bug&template=bug_report.md?v=1)
+- [💡 提出建议](https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&lables=bug&template=feature_request.md?v=1)
+- [🌟 分享经验](https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&lables=bug&template=share_experience.md?v=1)
 
 > "🐅🌹心有猛虎，细嗅蔷薇"
