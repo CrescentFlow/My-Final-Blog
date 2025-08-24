@@ -51,8 +51,8 @@
 
 
 ## 测试
-- [🐛 报告Bug](https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&lables=bug&template=bug_report.md?v=1)
-- [💡 提出建议](https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&lables=bug&template=feature_request.md?v=1)
-- [🌟 分享经验](https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&lables=bug&template=share_experience.md?v=1)
+- [🐛 报告Bug](https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&lables=bug&template=bug_report.md?)
+- [💡 提出建议](https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&lables=bug&template=feature_request.md?)
+- [🌟 分享经验](https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&lables=bug&template=share_experience.md?)
 
 > "🐅🌹心有猛虎，细嗅蔷薇"
