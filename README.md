@@ -45,19 +45,10 @@
 - [按日期查看](https://github.com/CrescentFlow/My-Final-Blog/tree/main?sort=committerdate)
 - [按标签筛选](#)  
 #### 💬 交流互动
-遇到类似问题？欢迎：
-- [提出建议] (../../issues/new?template=feature_request.md)
-- [分享经验] (../../issues/new?template=share_experience.md)
-
-#### 人
-## 测试
-- [🐛 报告Bug](https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&lables=bug&template=bug_report.md?)
-- [💡 提出建议](https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&lables=bug&template=feature_request.md?)
-- [🌟 分享经验](https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&lables=bug&template=share_experience.md?)
+<a href="https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&labels=bug&template=bug_report.md" target="_blank">🐛 报告Bug  </a>
+<a href="https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&labels=bug&template=feature_request.md" target="_blank">💡 提出建议  </a>
+<a href="https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&labels=bug&template=share_experience.md" target="_blank">🌟 分享经验 </a>
 
 
-### 测试
-
-<a href="https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&labels=bug&template=bug_report.md" target="_blank">🐛 报告Bug（HTML版）</a>
 
 > "🐅🌹心有猛虎，细嗅蔷薇"
