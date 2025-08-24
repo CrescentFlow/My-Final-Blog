@@ -18,3 +18,7 @@
 [测试连接5]
 (https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&lables=bug&template=bug_report.md)
 
+# 6
+- [提出建议] (../../issues/new?template=feature_request.md)
+- [分享经验] (../../issues/new?template=share_experience.md)
+
