@@ -13,3 +13,8 @@
 
 [测试链接4]
 (https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&lables=bug&template=bug_report.mdv=1)
+
+
+[测试连接5]
+(https://github.com/CrescentFlow/My-Final-Blog/issues/new?assignees=CrescentFlow&lables=bug&template=bug_report.md)
+
