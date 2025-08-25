@@ -24,10 +24,10 @@
 #### ✨ 学习数据看板
 - 📦**知识积累**: 24 KiB 技术笔记
 - 🌸**最近更新**:
-```
-git log ==oneline --since="2025-08-20" --pretty=format:"- %s (%ad) --date=short -n 5
+[查看完整更新日志(CHANGELOG.md)](./CHANGELOG.md)
+[查看历史更新](./CHANGELOG.md)
+[[全部更新记录](./CHANGELOG.md)]
 
-```
 
 #### 🎯 当前修炼重点
 - ✅ Git高级技巧
