@@ -1,5 +1,8 @@
 # 更新日志 (Changelog)
 
+[查看完整更新日志(CHANGELOG.md)](./CHANGELOG.md)
+[查看历史更新](./CHANGELOG.md)
+[[全部更新记录](./CHANGELOG.md)]
 ## [2025-08-24]
 - ✅ 完成了PowerShell基础命令的学习笔记
 - ✨ 优化了README的仪表盘布局
