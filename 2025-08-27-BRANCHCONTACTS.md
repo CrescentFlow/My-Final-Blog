@@ -15,6 +15,8 @@ git status -- update-feature/
 git remote -v
 #查看最近的提交历史
 git log --oneline -5
+#获取分支信息
+git fetch origin
 
 
 2. 搜索
@@ -47,6 +49,8 @@ git reset main --mixed
 git reset --soft main
 #删除所有不需要的文件
 git clean -fd (删除所有未跟踪的文件和目录)
+#删除旧文件
+git rm name.md
 
 4. 提交
 #撤销提交
@@ -63,34 +67,50 @@ git switch -c feature/name
 git switch -b feature/newname
 
 ```
-<2>. 复制某一分支下的文件夹到另外一个分支.注意先切换到目标分支
-1. 从远程直接拉取某一分支的文件夹到目标分支，会同时覆盖目标分支同名文件夹下的所有文件
+<2>. 复制部分文件注意事项
+1. 复制某一分支下的文件夹到另外一个分支.注意先切换到目标分支
+```
+#从远程直接拉取某一分支的文件夹到目标分支，会同时覆盖目标分支同名文件夹下的所有文件
 git checkout origin/featurename  doucument-name/(文件或这文件夹路径)
-同时复制多个文件夹
+#同时复制多个文件夹
 git checkout origin/featurename  doucument-name/   doucument-name2/
-被拉取后会自动添加到暂存区如果不需要暂存可以运行
+#被拉取后会自动添加到暂存区如果不需要暂存可以运行
 git reset HEAD -- 文件路径
+```
 2. 一次性移动多个文件
+```
 mv 文件1.js 文件2.css dc.png 目标文件夹/
+```
 3. 切换分支
+```
 git switch origin/target-branch
 git chechout origin/main(target-branch)
 如果在分支上修改添加了文件，想保留修改，必须在切换分支之前提交之后再切换分支
+```
 4. 文件在同一个目录下且有命名规律
+```
 git checkout origin/devlot -- **/test/*.js
 git checkout origin/main -- docs/*.md
+```
 5. 打包提交//
+
 6. 只复制需要的文件到当前目录
+```
 cp /d/doucument/name.md ./
 cp /d/doucument/name.md .
 ->add +commit
+```
 
 
 <3>. 重命名
 1. 重命名文件夹
+```
 mv (远程保留旧文件名)->delete + create
 git mv oldname newname ->renamed
+```
 2. 添加所有更改，或包括所有文件不只是目标文件
+```
 git add -A(新增，修改，删除的文件)
+```
 
 
